@@ -15,6 +15,13 @@
     "if else es una pregunta seguida de una afirmacion de verdadero y falso"
     "o sea es como la pregunta para la accion pues si es verdadera o no"
 */
+
+/*
+EL COGIGO ADENTRO DEL IF SOLO SI 
+EJECUTA CUANDO LA RESPUESTA DE LA
+PREGUNTA ES SI!
+*/
+
 let vaLlover = 123;
 if (vaLlover === true)
 {
@@ -25,17 +32,7 @@ else
     console.log("no lo uso");
 }
 
-
-
-
-
-
-
-
-
-
 let edad = 25;
-
 if (edad > 18)
 {
     console.log("Puedes ver XVideos");
@@ -44,28 +41,3 @@ else
 {
     console.log("Vea Paw Patrol");
 }
-
-
-
-
-
-
-
-
-
-let salud = 10;
-
-if (salud > 5) // Si!
-{
-    console.log("A");
-}
-else
-{
-    console.log("B");
-}
-
-/*
-EL COGIGO ADENTRO DEL IF SOLO SI
-EJECUTA CUANDO LA RESPUESTA DE LA
-PREGUNTA ES SI!
-*/
