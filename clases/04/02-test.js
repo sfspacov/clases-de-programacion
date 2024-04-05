@@ -27,9 +27,8 @@ else
 /*
     Cuando un profesor pregunta: "Que entendiste?"
     1 - Entendi nada!
-    El contrario de "entendi nada"?
-    
-    - "No entendi nada" = "Entendi todo"
+    Cual es el contrario de "entendi nada"?
+        - "No entendi nada" = "Entendi todo"
 
     2 - Hace sol -> No hace sol
 
