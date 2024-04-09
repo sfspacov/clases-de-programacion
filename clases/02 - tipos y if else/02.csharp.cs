@@ -1,4 +1,4 @@
 //interos: - 100000,..., -1, 0, 1, 2, 3,....
-int edad = "Jose da Silva";
+int edad = 15;
 
-string nombre = 13;
+string nombre = "Jose";
