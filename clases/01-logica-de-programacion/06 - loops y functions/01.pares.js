@@ -2,6 +2,6 @@
 let array = Array.from({ length: 101 }, (_, index) => index);
 
 // index = index + 1 -> index++
-for (let index = 0; index < array.length; index = index + 1) {
+for (let index = 0; index < array.length; index = index + 2) {
     console.log(index);
 }
