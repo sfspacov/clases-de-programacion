@@ -1,5 +1,6 @@
 /*
-    Além de imprimir, ela também pode retornar um valor (string, numero, lista,...)
+    FUNCIONES
+    Ademas imprimir, ellas tambiém puden retornar un valor (string, numero, lista,...)
 */
 
 function somar(numero1, numero2) {

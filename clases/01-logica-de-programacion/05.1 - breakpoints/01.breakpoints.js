@@ -6,7 +6,7 @@
     - Acciones
         - F5 = seguir a delante
         - F10 = desplazar para la proxima etapa
-        - F11 = entra en la funccion que esta siendo llamada
+        - F11 = entrar en la funcion que esta siendo llamada
 
     - Como crear/borrar un breakpoint
         - Pasar el mouse sobre la linea que desea crear/borrar el breakpoint
