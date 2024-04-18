@@ -37,7 +37,7 @@ let listaDeCarros = [
 
 //Endpoint = URL
 //HTTP GET
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
     res.json(listaDeCarros)
 });
 
