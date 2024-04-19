@@ -22,7 +22,7 @@ let listaDeCarros = [
             potencia: "400 hp",
             pistones: 6
         }
-    }, 
+    },
     {
         marca: "Ferrari",
         ano: 2024,
@@ -38,8 +38,22 @@ let listaDeCarros = [
 
 //Endpoint = URL
 //HTTP GET
-app.get('/', (req, res) => {
-    res.json(listaDeCarros)
+app.get('/search', (req, res) => {
+
+    const marca = req.query.marca;
+
+    if (marca === undefined)
+    {
+        res.json(listaDeCarros);
+    }
+
+    let filtro = listaDeCarros.filter(carro => carro.marca.toLocaleLowerCase() === marca.toLocaleLowerCase())
+                                                //Toyota -> toyota                      TOYOTA -> toyota
+    res.json(filtro);
 });
 
-app.listen(3000, () => { console.log('Server running on http://localhost:3000'); });
+//Poner el servidor/backend en el aire: Tornarlo accesible para el navegador
+const puerta = 1111;
+app.listen(puerta, () => {
+    console.log('Server running on http://localhost:' + puerta);
+});
