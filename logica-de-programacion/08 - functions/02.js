@@ -41,8 +41,7 @@ function validarVideo(video) //.mp3
 }
 
 
-function makeCall(host, inviteList, useWebCam, duracionMax)
-{
+function makeCall(host, inviteList, useWebCam, duracionMax) {
     //codigo para hacer la llamada
 }
 
@@ -51,32 +50,27 @@ makeCall("Jose Luis", ["Maria de las Dores"], true, 60);
 makeCall("Sheng", ["Ping", "Pong", "Lee", "Shung"], false, 30);
 
 
-function movimientosDeLosPersonajesBuenos(arriba, abajo, derecha, izquierda, x, y, a, b)
-{
+function movimientosDeLosPersonajesBuenos(arriba, abajo, derecha, izquierda, x, y, a, b) {
     if (b) {
         //saltar
-    } else if(a) {
+    } else if (a) {
         //dar una patada
-    } else if(x)
-    {
+    } else if (x) {
         //come un hunguito
-    } else if (x, y, arriba)
-    {
+    } else if (x, y, arriba) {
         //HADUUUUUKEEN
     }
     //..
 }
 
 
-function recibirTexto(texto)
-{
-    if (texto === preguntaElUltimo || texto === preguntaElMasReciente)
-    {
+function recibirTexto(texto) {
+    if (texto === preguntaElUltimo || texto === preguntaElMasReciente) {
         //base de datos
         return `Lo siento, no puedo`;
 
     }
     else {
-        
+
     }
 }
