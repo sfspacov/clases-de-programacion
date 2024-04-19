@@ -1,11 +1,12 @@
 const express = require('express'); //quiero utilizar express
 const app = express();
-/*HTTP GET, POST, PUT, DELETE
-    www.linkedin.com
-    - GET: Requisicion de lectura
-    - POST: Escribir
-    - PUT: Modificacion/Update
-    - DELETE: Deletar
+/*
+    HTTP - protocolo que es la fundacion de la internet
+    - Hay 4 tipos de requisiciones HTTP
+        - GET: Lectura
+        - POST: Creacion
+        - PUT: Actualizacion
+        - DELETE: Borrar
 */
 
 //Array = Lista = Colección
