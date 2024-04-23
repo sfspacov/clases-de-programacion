@@ -24,7 +24,7 @@ let listaDeCarros = [
             potencia: "400 hp",
             pistones: 6
         },
-        id: 1
+        placa: 1
     },
     {
         marca: "Ferrari",
@@ -37,7 +37,7 @@ let listaDeCarros = [
             potencia: "800 hp",
             pistones: 4
         },
-        id: 2
+        placa: 2
     }
 ]
 
@@ -62,7 +62,6 @@ app.get('/search', (req, res) => {
 app.post('/add', (req, res) => {
 
     let nuevoCarro = req.body;
-    nuevoCarro.id = listaDeCarros.length + 1;
     /*
         {
         marca: "X",
